@@ -14,7 +14,7 @@ spec:
     spec:
       containers: 
       - name: book-catalog
-        image: sit722part4m.azurecr.io/book_catalog_on_azure:latest
+        image: manavsit722part4.azurecr.io/book_catalog_on_azure:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
@@ -55,7 +55,7 @@ spec:
     spec:
       containers: 
       - name: inventory-management
-        image: sit722part4m.azurecr.io/inventory_manage_on_azure:latest
+        image: manavsit722part4.azurecr.io/inventory_manage_on_azure:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5001

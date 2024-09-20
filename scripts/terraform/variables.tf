@@ -1,5 +1,5 @@
 variable "app_name" {
-  default = "manav-sit722-part4"
+  default = "manavsit722part4"
 }
 
 variable "location" {
